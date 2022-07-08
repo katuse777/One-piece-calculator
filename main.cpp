@@ -25,14 +25,16 @@ int average_number_of_episodes;   //this will store the number of episodes watch
 
 int main()
 {
-    std::cout << std::setw(15) << "This is a program that will predict how long it\
-     should take me to catch up to the one piece anime depending on the number of episodes i watch every day\n";
+    std::cout << "*********This is a program that will predict how long it"
+     " should take me to catch up to the one piece anime depending on the number of episodes i watch every day*********\n";
     std::cout << "If I watch(enter the number of episodes you want to watch every day): ";
     std::cin >> episodes_per_day;
     std::cout << " episodes per day and there are(enter the current number of episodes there are of the anime): ";
     std::cin >> present_number_of_episodes;
     number_of_episodes_left = present_number_of_episodes; 
     std::cout << " episodes of one piece for me to watch and one new episode coming out every week.\n";
+    std::cout << "How many episodes have you watched so far ? ";
+    std::cin >> episodes_watched;
     /* there are one 1080 episodes of one piece when i started and the more episodes i watch, the less episodes
     */
     //Let's say i want to watch 7 episodes everyday and there are 1080 episodes of one piece rigth now 
